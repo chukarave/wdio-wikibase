@@ -13,5 +13,7 @@ jobs:
         with:
           node-version: "12.x"
           cache: npm
+      - name: install
+        run: npm install
       - name: Test
         run: npm test
